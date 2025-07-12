@@ -35,11 +35,11 @@ Ensure PostgreSQL and Redis are up and running on the configured ports.
 
 5. Run Migrations
 ```
-npm run typeorm migration:run
+npx typeorm-ts-node-commonjs migration:run -d ./src/data-source.ts
 ```
 This will run the migrations and create the required tables in the PostgreSQL database.
 
 🚀 Running the Server
 ```
-npm run dev
+npm start
 ```
