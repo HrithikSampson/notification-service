@@ -29,6 +29,7 @@ DB_PORT=5432
 DB_USERNAME=postgres
 DB_PASSWORD=yourpassword
 DB_NAME=notification_service
+redis_url=localhost
 ```
 4. Start PostgreSQL and Redis
 Ensure PostgreSQL and Redis are up and running on the configured ports.
